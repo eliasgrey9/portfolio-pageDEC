@@ -19,7 +19,7 @@
   --color-light: rgba(255, 255, 255, 0.6);
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
   --transition: all 400ms ease;
 }
 
@@ -36,7 +36,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url("https://media.istockphoto.com/id/610855984/vector/abstract-background.jpg?s=612x612&w=0&k=20&c=LCD4gd4Wk1ffPJhIvC51Y2b96KgF29rkMeB1b3fNqO4=");
+  background-image: url("https://images.unsplash.com/photo-1603346133929-24265debae88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80");
 }
 
 /* ================= GENERAL STYLES ================*/
