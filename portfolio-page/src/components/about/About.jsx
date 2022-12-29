@@ -35,9 +35,18 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel sunt
-            asperiores, impedit labore officiis fuga repudiandae nostrum
-            excepturi saepe quis exercitationem dignissimos.
+            Husband, father, navy veteran, business owner, and junior web
+            developer. I'm a Navy Veteran and an enthusiast who enjoys 3d
+            design, 3d printing, laser engraving, embroidery, CNC, and
+            electronics. Software engineering was a natural next step as an
+            innovator. Technologies I've learned: HTML, CSS, JavaScript, React,
+            Redux, Express, Node, PostgreSQL, and Sequelize. Technologies I am
+            currently pursuing and have great interest in: Remix, Python, React
+            Native, AWS, and Bootstrap. I love to build, I love to lead and help
+            others succeed.
+          </p>
+          <p>
+            *** Currently interested in a Junior Software Development job. ***
           </p>
           <a href="#contact" className="btn btn-primary">
             Contact me

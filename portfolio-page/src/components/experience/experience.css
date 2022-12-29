@@ -1,7 +1,8 @@
 .experience_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   gap: 2rem;
+  justify-content: center;
+  width: 85%;
 }
 .experience_container > div {
   background: var(--color-bg-variant);
@@ -54,6 +55,7 @@
 @media screen and (max-width: 600px) {
   .experience_container {
     gap: 1rem;
+    margin: 3rem;
   }
 
   .experience_container > div {
