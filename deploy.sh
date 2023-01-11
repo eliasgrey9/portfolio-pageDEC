@@ -6,7 +6,7 @@ npm run build
 echo
 
 git checkout main
-cp CNAME build
+cp CNAME ./build/CNAME
 git add .
 git commit -m "$commit_message"
 git push origin main
