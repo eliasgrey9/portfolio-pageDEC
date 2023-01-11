@@ -1,7 +1,7 @@
 #!/bin/sh
 IFS= read -r -p "Enter a commit message: " commit_message
 
-npm run deploy
+npm run build
 
 echo
 
