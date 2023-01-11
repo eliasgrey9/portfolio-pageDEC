@@ -12,8 +12,8 @@ git commit -m "$commit_message"
 git push origin main
 
 echo
-
-git checkout production
+git branch -D production
+git checkout -b production
 git merge main
 git add .
 git commit -m "$commit_message"
