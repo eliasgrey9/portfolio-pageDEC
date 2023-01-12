@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "bash deploy.sh"
+    "deploy": "node node_modules/gh-pages/bin/gh-pages-clean && echo 'eliasgrey.me' > ./build/CNAME && gh-pages -d build -b production -r https://github.com/eliasgrey9/portfolio-pageDEC.git"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
