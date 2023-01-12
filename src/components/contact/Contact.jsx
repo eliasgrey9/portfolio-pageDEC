@@ -70,7 +70,7 @@ const Contacts = () => {
             required
           ></textarea>
           <button className="btn btn-primary" type="submit">
-            Send Messager
+            Send Message
           </button>
         </form>
       </div>

@@ -22,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "node node_modules/gh-pages/bin/gh-pages-clean && echo 'eliasgrey.me' > ./build/CNAME && gh-pages -d build -b production -r https://github.com/eliasgrey9/portfolio-pageDEC.git"
+    "predeploy": "npm run build && node node_modules/gh-pages/bin/gh-pages-clean && echo 'eliasgrey.me' > ./build/CNAME",
+    "deploy": "npm run predeploy && gh-pages -d build -b production -r https://github.com/eliasgrey9/portfolio-pageDEC.git"
   },
   "eslintConfig": {
     "extends": [
