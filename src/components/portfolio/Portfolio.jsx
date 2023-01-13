@@ -5,12 +5,13 @@ import image2 from "../../assets/memoryGame.jpg";
 import foodAppImage from "../../assets/foodAppImage.png";
 import graceShopper from "../../assets/graceShopper.png";
 import staticImage from "../../assets/staticImage.png";
+import todoremix from "../../assets/todoremix.png";
 
 const data = [
   {
     id: 1,
     image: image1,
-    title: "Task Tracker",
+    title: "Task Tracker with React",
     github: "https://github.com/eliasgrey9/ToDoTracker",
     demo: "https://youtu.be/ZR95YgZn4ys",
   },
@@ -44,11 +45,10 @@ const data = [
   },
   {
     id: 6,
-    image:
-      "https://st.depositphotos.com/2885805/3842/v/600/depositphotos_38422667-stock-illustration-coming-soon-message-illuminated-with.jpg",
-    title: "Title goes here",
-    github: "https://github.com/eliasgrey9",
-    demo: "https://dribble.com",
+    image: todoremix,
+    title: "To-do App with Remix",
+    github: "https://github.com/eliasgrey9/todo-remix",
+    demo: "https://youtu.be/nUbuYj_ZxiA",
   },
 ];
 
