@@ -6,6 +6,7 @@ import foodAppImage from "../../assets/foodAppImage.png";
 import graceShopper from "../../assets/graceShopper.png";
 import staticImage from "../../assets/staticImage.png";
 import todoremix from "../../assets/todoremix.png";
+import wackamole from "../../assets/wackamole.png";
 
 const data = [
   {
@@ -50,6 +51,13 @@ const data = [
     github: "https://github.com/eliasgrey9/todo-remix",
     demo: "https://youtu.be/nUbuYj_ZxiA",
   },
+  {
+    id: 7,
+    image: wackamole,
+    title: "Whack-a-mole",
+    github: "https://github.com/eliasgrey9/wack-a-mole-react",
+    demo: "https://youtu.be/lEybxbpWSxg",
+  },
 ];
 
 const Portfolio = () => {
@@ -76,7 +84,7 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Live Demo
+                  Demo
                 </a>
               </div>
             </article>
